@@ -14,14 +14,15 @@ public class Calc
     Scanner s = new Scanner (System.in);
     while ( t . tokenize ( s . next () ) == TokenizerReturnValues.CORRECT )
     {
-      for ( int i = 0 ; i < t.output.size () ; i ++ )
+      /*for ( int i = 0 ; i < t.output.size () ; i ++ )
       {
         Tokenizer.Type type = t.output.get ( i );
         switch ( type )
         {
           
         }
-      }
+      }*/
+      System.out.println ( t.sort() );
     }
   }
   
