@@ -7,6 +7,7 @@ public class Tokenizer
 
   ArrayList<Type> output = new ArrayList<> ();
   String text;
+  String sortedText = "";
 
   public static enum Type
   {
@@ -134,6 +135,7 @@ public class Tokenizer
       }
       else
       {
+        sortedText += text.charAt ( i );
         out.add ( arrayList.get ( i ) );
       }
     }

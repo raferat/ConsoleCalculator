@@ -23,6 +23,7 @@ public class Calc
         }
       }*/
       System.out.println ( t.sort() );
+      System.out.println ( t.sortedText );
     }
   }
   
